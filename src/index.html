@@ -6,10 +6,12 @@
     <title>理财网站</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/vendor/owl.carousel.2.1.0/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/vendor/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<!--[if lte IE8]>
+<!--[if lte IE 8]>
 <p class="browserupgrade">您的浏览器老的可笑，请到<a href="http://browsehappy.com/">更新，以获取最近的体验</a></p>
 <![endif]-->
 
@@ -36,7 +38,7 @@
     </nav>
 </header>
 <div class="container">
-    <div class="transaction">
+    <div class="transaction clearfix">
         <div class="trans-content">
             <div class="trans-data">
                 <span>平台累计成交金额</span>
@@ -54,9 +56,32 @@
         </div>
     </div>
     <div class="ad">
-        <div class="item"><img src="img/ad001.png" alt=""></div>
-        <div class="item"><img src="img/ad002.png" alt=""></div>
-        <div class="item"><img src="img/ad003.png" alt=""></div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad001-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad001-m.png" media="(min-width:30em)">
+                    <img src="img/ad001.png" alt="2015年度报告">
+                </picture>
+
+            </div>
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad002-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad002-m.png" media="(min-width:30em)">
+                    <img src="img/ad002.png" alt="新年红包">
+                </picture>
+
+            </div>
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad003-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad003-m.png" media="(min-width:30em)">
+                    <img src="img/ad003.png" alt="新手秘籍">
+                </picture>
+
+            </div>
+        </div>
     </div>
     <div class="feature">
         <div class="item">
@@ -65,102 +90,137 @@
         </div>
         <div class="item">
             <h3>权威</h3>
-            <p>权威权威权威权威权威权威权威权威权威</p>
+            <p>权威权威权威权威权威权威权威权威权威权威权威权威</p>
         </div>
         <div class="item">
             <h3>省心</h3>
-            <p>省心省心省心省心省心省心省心省心</p>
+            <p>省心省心省心省心省心省心省心省心省心省心省心省心</p>
         </div>
     </div>
-    <div class="notice">
-        <a href="#"><span>2017-03-30</span>清明放假通知！！！！！！！</a>
+    <div class="notice clearfix">
+        <a href="#"><span>2017-03-30</span>清明放假通知！清明放假通知清明放假通清明放假通知清明放假通知清明放假通知清明放假通知清明放假通知知清明放假通知清明放假通知清明放假通知清明放假通知！！！！！！</a>
         <a href="#" class="more">更多广告</a>
     </div>
-    <div class="product">
-        <div class="item">
-            <h3><em>3</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+    <section class="product clearfix">
+        <h2>固定期限产品
+            <em>甄选优质基金</em>
+            <em>省时省力</em>
+            <em>坐等收益</em>
+        </h2>
+        <div class="product-content">
+            <div class="item clearfix">
+                <h3><em>3</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">3.50%</span><i>起</i></p>
+                    <p>总成交金额：<span>1880</span><i>万元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
-        </div>
-        <div class="item">
-            <h3><em>6</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+            <div class="item clearfix">
+                <h3><em>3-6</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">3.60%</span><i>起</i></p>
+                    <p>总成交金额：<span>2880</span><i>万元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
-        </div>
-        <div class="item">
-            <h3><em>9</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+            <div class="item clearfix">
+                <h3><em>6-12</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">4.50%</span><i>起</i></p>
+                    <p>总成交金额：<span>3880</span><i>万元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
-        </div>
-        <div class="item">
-            <h3><em>12</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+            <div class="item clearfix">
+                <h3><em>12-24</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">5.60%</span><i>起</i></p>
+                    <p>总成交金额：<span>4880</span><i>万元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
-        </div>
-        <div class="item">
-            <h3><em>15</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+            <div class="item clearfix">
+                <h3><em>24</em>个月以上</h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">6.20%</span><i>起</i></p>
+                    <p>总成交金额：<span>5880</span><i>万元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
         </div>
-    </div>
-    <div class="product">
-        <div class="item">
-            <h3><em>3</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+    </section>
+    <section class="product clearfix">
+        <h2>债权/散标产品
+            <em>自主投资</em>
+            <em>期限灵活</em>
+        </h2>
+        <div class="product-content">
+            <div class="item clearfix">
+                <h3><em>3</em>个月<i>日常生活消费</i></h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">4.90%</span><i>起</i></p>
+                    <p>金额：<span>18,000</span><i>元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#">投标</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
-        </div>
-        <div class="item">
-            <h3><em>6</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+            <div class="item clearfix">
+                <h3><em>5</em>个月<i>资金周转</i></h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">5.20%</span><i>起</i></p>
+                    <p>金额：<span>28,800</span><i>元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#">投标</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
-        </div>
-        <div class="item">
-            <h3><em>9</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+            <div class="item clearfix">
+                <h3><em>7</em>个月<i>个人消费</i></h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">5.50%</span><i>起</i></p>
+                    <p>金额：<span>38,800</span><i>元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#" class="disabled">还款中</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
-        </div>
-        <div class="item">
-            <h3><em>12</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+            <div class="item clearfix">
+                <h3><em>1</em>个月<i>日常生活消费</i></h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">4.60%</span><i>起</i></p>
+                    <p>金额：<span>48,800</span><i>元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#" class="disabled">还款中</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
-        </div>
-        <div class="item">
-            <h3><em>15</em>个月</h3>
-            <div class="info">
-                <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
-                <p>总成交额：<span class="money">1880<i>万元</i></span></p>
+            <div class="item clearfix">
+                <h3><em>12</em>个月以上<i>资金周转</i></h3>
+                <div class="info">
+                    <p>约定年化收益率：<span class="year-rate">7.20%</span><i>起</i></p>
+                    <p>金额：<span>58,800</span><i>元</i></p>
+                </div>
+                <div class="buy">
+                    <a href="#" class="disabled">已满标</a>
+                </div>
             </div>
-            <div class="buy"><a href="#">购买</a></div>
         </div>
-    </div>
-    <nav class="footer">
+    </section>
+
+
+    <nav class="footer clearfix">
         <div class="footer-content">
             <p class="brand"></p>
             <ul>
@@ -213,6 +273,10 @@
     </ul>
     <p>北京某互联网金融公司 版权所有 &copy; 2015-2016</p>
 </footer>
-
+<script src="js/modernizr.js"></script>
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/owl.carousel.2.1.0/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/vendor/picturefill.min.js"></script>
 </body>
 </html>
