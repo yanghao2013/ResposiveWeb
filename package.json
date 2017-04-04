@@ -1,0 +1,28 @@
+{
+  "name": "resposivewebnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanghao2013/ResposiveWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanghao2013/ResposiveWeb/issues"
+  },
+  "homepage": "https://github.com/yanghao2013/ResposiveWeb#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
